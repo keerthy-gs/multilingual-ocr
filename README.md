@@ -11,7 +11,7 @@ An end-to-end AI pipeline that detects, recognises, translates, and vocalises te
 - Interactive web app built with Streamlit
 
 ## Tech Stack
-- Python 3.14
+- Python 3.10–3.12 recommended
 - CLIP (ViT-B/32)
 - EasyOCR
 - OpenCV
