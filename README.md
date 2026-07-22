@@ -20,6 +20,27 @@ An end-to-end AI pipeline that detects, recognises, translates, and vocalises te
 - gTTS
 
 ## How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/keerthy-gs/multilingual-ocr.git
+cd multilingual-ocr
+```
+
+### 2. Install the Required Packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Launch the Streamlit Application
+
+```bash
+streamlit run app.py
+```
+
+The first launch may take longer while the OCR and language models load.
 ## Results
 - Peak OCR confidence: 92.4% on Kannada signboards
 - Successfully detected 6 text regions from a single code-mixed Bengali-English image
