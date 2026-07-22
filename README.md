@@ -5,7 +5,7 @@ An end-to-end AI pipeline that detects, recognises, translates, and vocalises te
 ## Features
 - Zero-shot script identification using CLIP (ViT-B/32)
 - Supports 5 scripts: Kannada, Telugu, Hindi, Bengali, English
-- Script-aware OCR routing using EasyOCR
+- Multiple EasyOCR language readers process the image, and the result with the highest OCR confidence is selected
 - Neural machine translation via Google Translate API
 - Text-to-speech voice output using gTTS
 - Interactive web app built with Streamlit
