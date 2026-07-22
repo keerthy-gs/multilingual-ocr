@@ -41,7 +41,10 @@ streamlit run app.py
 ```
 
 The first launch may take longer while the OCR and language models load.
-## Results
-- Peak OCR confidence: 92.4% on Kannada signboards
-- Successfully detected 6 text regions from a single code-mixed Bengali-English image
-- Supports cross-language translation (e.g., Bengali to Kannada)
+## Example Outputs
+
+- Achieved a 92.4% OCR confidence score on one tested Kannada signboard image.
+- Detected six text regions in one code-mixed Bengali-English sample image.
+- Demonstrated cross-language translation, including Bengali-to-Kannada translation.
+
+> Note: These are demonstration results from selected sample images and do not represent overall benchmark accuracy.
